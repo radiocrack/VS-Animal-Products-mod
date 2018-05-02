@@ -1,0 +1,21 @@
+
+{
+"item-arrow-fire*": "Fire Arrow crafted from any any arrow, fat and a torch","itemdesc-arrow-fire*":"Adds +2 damage. Future recipe should include adding linen or other fiber. Could include pitch if liquids like that are added.",
+"item-arrow-poison*": "Poisoned Arrow crafted from any arrow and mushroom","itemdesc-arrow-poison*":"Adds +2 damage. Future recipe should include cooking with a herb to get poison.",
+"item-bow-simple": "Simple Bow","itemdesc-bow-simple":"Flimsy stick with some weak string.  Make a strong bowstring using animal sinew and carve a better limb.",
+"item-advbow-carved": "Carved Bow","itemdesc-bow-carved":"A little better than a flimsy stick.  Made by combining a carved limb with a bowstring. Replace bowstring before it breaks and destroys the bow.",
+"item-advbow-composite": "Composite Bow","itemdesc-bow-composite":"A decent bow made by gluing layers of horn and sinew onto a carved bow limb. Replace bowstring before it breaks and destroys the bow.",
+"item-advbow-recurve": "Recurve Bow","itemdesc-bow-recurve":"Advanced bow made by adding hide and more horn and sinew to composite limb. Replace bowstring before it breaks and destroys the bow. ",
+
+
+
+
+
+
+
+
+
+
+
+
+}

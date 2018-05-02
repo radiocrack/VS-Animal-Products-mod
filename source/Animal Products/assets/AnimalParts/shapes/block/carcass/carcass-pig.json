@@ -1,0 +1,60 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textures": {
+		"sow": "game:entity/pig/pig-wild-female1"
+	},
+	"elements": [
+		{
+			"name": "body",
+			"from": [ 2.0, 0.0, 4.0 ], 
+			"to": [ 15.0, 7.0, 11.0 ], 
+			"rotationOrigin": [ 8.0, 9.0, 7.5 ],
+			"rotationZ": -2.0,
+			"faces": {
+				"north": { "texture": "#sow", "uv": [ 0.0, 7.0, 7.0, 20.0 ], "rotation": 270 },
+				"east": { "texture": "#sow", "uv": [ 8.0, 0.0, 15.0, 7.0 ], "rotation": 180 },
+				"south": { "texture": "#sow", "uv": [ 15.0, 7.0, 22.0, 20.0 ], "rotation": 90 },
+				"west": { "texture": "#sow", "uv": [ 8.0, 21.0, 15.0, 28.0 ] },
+				"up": { "texture": "#sow", "uv": [ 8.0, 7.0, 15.0, 20.0 ], "rotation": 90 },
+				"down": { "texture": "#sow", "uv": [ 23.0, 7.0, 30.0, 20.0 ], "rotation": 270 }
+			},
+			"children": [
+				{
+					"name": "neck",
+					"from": [ -5.0, 0.8, 1.0 ], 
+					"to": [ 2.0, 6.8, 6.0 ], 
+					"rotationOrigin": [ 2.0, 4.0, 3.5 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#sow", "uv": [ 32.0, 9.0, 39.0, 15.0 ] },
+						"east": { "texture": "#sow", "uv": [ 51.0, 9.0, 56.0, 15.0 ], "enabled": false },
+						"south": { "texture": "#sow", "uv": [ 44.0, 9.0, 51.0, 15.0 ] },
+						"west": { "texture": "#sow", "uv": [ 39.0, 9.0, 44.0, 15.0 ] },
+						"up": { "texture": "#sow", "uv": [ 39.0, 2.0, 44.0, 9.0 ], "rotation": 90 },
+						"down": { "texture": "#sow", "uv": [ 39.0, 15.0, 44.0, 22.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "tail",
+					"from": [ 12.0, 2.5, 3.0 ], 
+					"to": [ 13.0, 6.5, 4.0 ], 
+					"rotationOrigin": [ 12.5, 6.5, 3.5 ],
+					"rotationZ": 39.0,
+					"faces": {
+						"north": { "texture": "#sow", "uv": [ 58.0, 11.0, 59.0, 15.0 ] },
+						"east": { "texture": "#sow", "uv": [ 57.0, 11.0, 58.0, 15.0 ] },
+						"south": { "texture": "#sow", "uv": [ 56.0, 11.0, 57.0, 15.0 ] },
+						"west": { "texture": "#sow", "uv": [ 59.0, 11.0, 60.0, 15.0 ] },
+						"up": { "texture": "#sow", "uv": [ 57.0, 10.0, 58.0, 11.0 ], "rotation": 270 },
+						"down": { "texture": "#sow", "uv": [ 57.0, 15.0, 58.0, 16.0 ], "rotation": 270 }
+					}
+				}
+			]
+		}
+	]
+}

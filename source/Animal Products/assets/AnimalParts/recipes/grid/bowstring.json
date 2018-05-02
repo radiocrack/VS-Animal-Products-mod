@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "_ST	_KT	_ST",
+	ingredients: {
+		"S": { type: "item", code: "sinew-strip" },
+		"K": { type: "item", code: "game:knife*", isTool: true  },
+		"T": { type: "item", code: "sinew-thread"  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "sinew-bowstring", quantity: 1  }
+}

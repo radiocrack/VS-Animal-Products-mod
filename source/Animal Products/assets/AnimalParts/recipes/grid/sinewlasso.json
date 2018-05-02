@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "_RR	_RR	R__",
+	ingredients: {
+		"R": { type: "item", code: "sinew-rope", name: "Sinew"  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "sinew-lasso", quantity: 1  }
+}

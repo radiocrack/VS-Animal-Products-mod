@@ -1,0 +1,19 @@
+{
+	code: "sinew",
+	maxstacksize: 64,
+	variantgroups: [
+		{ code: "type", states: ["bone", "tendon", "strip", "fibers","thread","rope","lasso","bowstring","horn","bowlfiber","glue", "hornslab" ] },
+	],
+	texture: { base: "item/resource/sinew/{type}" },
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	combustiblePropsByType: {
+		"*bowlfiber": {
+			meltingPoint: 110,
+			meltingDuration: 20,
+			smeltedRatio: 1,
+			smeltingType: "cook",
+			smeltedStack: { type: "item", code: "sinew-glue" },
+			requiresContainer: false
+		}
+	}
+}

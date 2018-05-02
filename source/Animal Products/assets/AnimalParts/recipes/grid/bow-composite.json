@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "BS",
+	ingredients: {
+		"B": { type: "item", code: "limb-composite"},
+		"S": { type: "item", code: "sinew-bowstring"}
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "game:advbow-composite", quantity: 1  }
+}

@@ -1,0 +1,60 @@
+{
+	"editor": {
+		"allAngles": false,
+		"singleTexture": false
+	},
+	"textureWidth": 64,
+	"textureHeight": 64,
+	"textures": {
+		"ewe": "game:entity/sheep/sheep-bighorn-female"
+	},
+	"elements": [
+		{
+			"name": "Body",
+			"from": [ 0.0, 0.0, 3.0 ], 
+			"to": [ 17.0, 9.0, 13.0 ], 
+			"rotationOrigin": [ 9.0, 14.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#ewe", "uv": [ 0.0, 9.0, 9.0, 26.0 ], "rotation": 270 },
+				"east": { "texture": "#ewe", "uv": [ 9.0, 0.0, 19.0, 9.0 ], "rotation": 180 },
+				"south": { "texture": "#ewe", "uv": [ 19.0, 9.0, 28.0, 26.0 ], "rotation": 90 },
+				"west": { "texture": "#ewe", "uv": [ 9.0, 26.0, 19.0, 35.0 ] },
+				"up": { "texture": "#ewe", "uv": [ 9.0, 9.0, 19.0, 26.0 ], "rotation": 90 },
+				"down": { "texture": "#ewe", "uv": [ 28.0, 9.0, 38.0, 26.0 ], "rotation": 270 }
+			},
+			"children": [
+				{
+					"name": "neck",
+					"from": [ -4.3, -0.1, 2.5 ], 
+					"to": [ 4.7, 4.9, 7.5 ], 
+					"rotationOrigin": [ 3.7, 3.9, 5.0 ],
+					"rotationZ": -69.0,
+					"faces": {
+						"north": { "texture": "#ewe", "uv": [ 54.0, 6.0, 59.0, 15.0 ], "rotation": 90 },
+						"east": { "texture": "#ewe", "uv": [ 49.0, 15.0, 54.0, 20.0 ], "rotation": 180, "enabled": false },
+						"south": { "texture": "#ewe", "uv": [ 44.0, 6.0, 49.0, 15.0 ], "rotation": 270 },
+						"west": { "texture": "#ewe", "uv": [ 49.0, 1.0, 54.0, 6.0 ] },
+						"up": { "texture": "#ewe", "uv": [ 59.0, 6.0, 64.0, 15.0 ], "rotation": 90 },
+						"down": { "texture": "#ewe", "uv": [ 49.0, 6.0, 54.0, 15.0 ], "rotation": 90 }
+					}
+					
+				},
+				{
+					"name": "tail",
+					"from": [ 16.1, 6.5, 4.0 ], 
+					"to": [ 19.1, 8.5, 6.0 ], 
+					"rotationOrigin": [ 16.1, 7.5, 5.0 ],
+					"rotationZ": -50.0,
+					"faces": {
+						"north": { "texture": "#ewe", "uv": [ 0.0, 3.0, 2.0, 6.0 ], "rotation": 270 },
+						"east": { "texture": "#ewe", "uv": [ 2.0, 1.0, 4.0, 3.0 ], "rotation": 180 },
+						"south": { "texture": "#ewe", "uv": [ 4.0, 3.0, 6.0, 6.0 ], "rotation": 90 },
+						"west": { "texture": "#ewe", "uv": [ 2.0, 6.0, 4.0, 8.0 ], "enabled": false },
+						"up": { "texture": "#ewe", "uv": [ 2.0, 3.0, 4.0, 6.0 ], "rotation": 90 },
+						"down": { "texture": "#ewe", "uv": [ 6.0, 3.0, 8.0, 6.0 ], "rotation": 270 }
+					}
+				}
+			]
+		}
+	]
+}

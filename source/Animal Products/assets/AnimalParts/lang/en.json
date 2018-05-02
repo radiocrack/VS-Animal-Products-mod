@@ -1,0 +1,20 @@
+﻿
+{
+"block-carcass-*": "Animal Carcass","blockdesc-carcass-*":"Place and carve with a knife to get drops. Have storage handy.",
+"item-limb-carved": "Carved limb ","itemdesc-limb-carved":"Carved limb made with a knife and stick. Combine with bowstring. A little better than a flimsy stick.",
+"item-limb-composite": "Composite Limb","itemdesc-limb-composite":"made by crafting glue with a slab of horn, carved limb and sinew strip. Combine with bowstring. A real bow with good stopping power.",
+"item-limb-recurve": "Recurve Limb","itemdesc-limb-recurve":"made by combining glue and hide with a slab of horn, composite limb and sinew strip.Combine with bowstring. Well worth the time and effort.",
+"item-sinew-bone": "Bone from animal carcass","itemdesc-sinew-bone":"No further use at this time",
+"item-sinew-tendon": "Tendon from animal carcass","itemdesc-sinew-tendon":"Use a knife to cut into usable strips",
+"item-sinew-strip": "Sinew strip cut from tendon","itemdesc-sinew-strip":"Hammer into fibers for thread, glue and rope. Also used to bind tools, bowstrings, and for composite bows.",
+"item-sinew-fibers": "Sinew fibers ","itemdesc-sinew-fibers":"hammered from sinew strips. Combine 6 over a bowl then put in a fire to make glue. Or craft 3 horizontally to make thread.",
+"item-sinew-thread": "Sinew thread ","itemdesc-sinew-thread":"crafted from 3 sinew fibers. Combine 6 threads vertically to make a rope. Or combine 3 thread and 2 sinew strips to make bowstring with loops.  Future uses, sewing thread, fishing line.",
+"item-sinew-rope": "Sinew rope ","itemdesc-sinew-rope":"crafted from 6 sinew threads. Currently no use except crafting equally useless lasso. Combine 4 in the top right corner and 1 on the left bottom to make a long lasso with a loop.",
+"item-sinew-lasso": "Sinew lasso ","itemdesc-sinew-lasso":"crafted from 5 sinew rope. Currently no use.",
+"item-sinew-bowstring": "Sinew bowstring ","itemdesc-sinew-bowstring":"crafted from 2 sinew strips and 3 sinew threads. Combine with stick for a simple vanilla bow. Or combine with crafted limbs to make bows. Carved limb, composite limb, recurve limbs are craftable.",
+"item-sinew-horn": "Horn from animal carcass","itemdesc-sinew-horn":"Carve with a knife to get horn slabs which can be used to make advanced composite and recurve bows. Future use include tool handles and trade goods.",
+"item-sinew-bowlfiber": "Sinew Fibers in a bowl","itemdesc-sinew-bowlfiber":" Crafted from 6 sinew fibers and a bowl. Cook in a fire pit to make glue. Glue is used for advanced crafting of composite and recurve bows. Future uses of glue include any tool construction.",
+"item-sinew-glue": "Sinew Glue","itemdesc-sinew-glue":"from cooking sinew fibers in a bowl. Glue is used for advanced crafting of composite and recurve bows. Future uses of glue include any tool construction.",
+"item-sinew-hornslab": "Horn Slab","itemdesc-sinew-hornslab":"cut from an animal horn. Used to make advanced composite and recurve bows. Future use include tool handles and trade goods.",
+"item-fletching-*": "Fletching for arrows","itemdesc-fletching-*":"Not used yet.  A knife with feather, bamboo or vine will create the respective fletching. Could add immersion and alternate materials.",
+}

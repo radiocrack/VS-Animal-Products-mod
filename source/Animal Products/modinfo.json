@@ -1,0 +1,10 @@
+
+{
+	"type": "content",
+	"name": "animal products",
+	"description" : "Animals drop a carcass which is processed into parts with a knife",
+	"website": "https://github.com/radiocrack/VS-Animal-Products-mod",
+	"author": "Elwood",
+	"version": "0.0.3",
+	"gameversions": [ "1.5.2.6" ]
+}

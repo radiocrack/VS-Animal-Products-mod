@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "T_T	T_T	T_T	",
+	ingredients: {
+		"T": { type: "item", code: "sinew-thread", name: "Sinew"  }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "sinew-rope", quantity: 1  }
+}
